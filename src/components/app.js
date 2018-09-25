@@ -21,11 +21,6 @@ export default class App extends Component {
 	render() {
 		return (
 			<div id="app">
-				<Head>
-					<link rel="stylesheet" href="/node_modules/material-design-lite/material.min.css"/>
-					<script src="/node_modules/material-design-lite/material.min.js"/>
-					<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
-				</Head>
 				<Header />
 				<Router onChange={this.handleRoute}>
 					<Home path="/" />
