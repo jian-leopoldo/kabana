@@ -1,5 +1,6 @@
 import { h } from 'preact';
 import style from './style';
+import Project from './components/project';
 
 const Home = () => (
 	<div class={style.home}>
